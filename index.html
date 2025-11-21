@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ahmed-mohamed</title>
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font awesome -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- start header -->
+    <header>
+      <div class="container">
+        <div class="img-left">
+          <i class="fa-solid fa-code"></i>
+        </div>
+        <i class=" bar fa-solid fa-bars"></i>
+        <nav class="links">
+          <ul>
+            <li><a href="#hero">hero</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <script>
+            const bar = document.querySelector('.bar');
+            const container = document.querySelector('header .container');
+          
+            bar.addEventListener('click', () => {
+              container.classList.toggle('active');
+            });
+          </script>
+          
+    <!-- start hero -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="left-text">
+          <span>hallo were</span>
+          <h1>
+            hi iam <span class="blue">Ahmed</span> sina <br />
+            web devolper
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            dolorum optio labore facere praesentium quam suscipit accusamus
+            laudantium.
+          </p>
+          <div class="inp-so">
+            <input type="button" value="dev were" />
+            <ul class="social-media">
+              <li><i class="fa-solid fa-briefcase"></i></li>
+              <li><i class="fa-brands fa-instagram"></i></li>
+              <li><i class="fa-brands fa-linkedin-in"></i></li>
+            </ul>
+          </div>
+        </div>
+        <div class="right-img">
+        
+        <img src="img/about-us.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- start about -->
+    <section class="about" id="about">
+        <h1 class="h1-header">About Me</h1>
+      <div class="container">
+          <div class="img-left">
+            <img src="img/about-us.png" alt="logo" />
+          </div>
+          <div class="left-text">
+              <p>
+                  Lorem, ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. At nisi quo possimus, id quis aperiam obcaecati quidem maiores officia. Earum nesciunt tempore non in? Eaque placeat voluptate commodi corporis alias. consectetur adipisicing elit. In, commodi fugiat. Adipisci incidunt id facilis hic, odit, nesciunt, harum qui quod corporis assumenda expedita voluptatem voluptatum et similique nam iusto?
+
+              </p>
+              <div class="button-two">
+                 <input type="submit" class="button-res" value="hiro me">
+                 <input type="submit" class="button-res" value="resume">
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- start portfolio -->
+    <section class="portfolio" id="portfolio">
+            <h1 class="h1-header">portfolio</h1>
+      <div class="container">
+<!-- 
+        <ul>
+          <li><a href="">portfolio</a></li>
+          <li><a href="">portfolio</a></li>
+          <li><a href="">portfolio</a></li>
+          <li><a href="">portfolio</a></li>
+        </ul> -->
+        <div class="project">
+          <div class="p-1">
+            <img src="img/portfolio/p1.jpg" alt="" />
+            <div class="ser">
+            <h2 class="hed-pro">front end </h2>
+            <p class="des-pro">my name is ahmed  </p>
+          </div>
+          </div>
+          <div class="p-1">
+            <img src="img/portfolio/p1.jpg" alt="" />
+            <div class="ser">
+            <h2 class="hed-pro">front end </h2>
+            <p class="des-pro">my name is ahmed  </p>
+          </div>
+          </div>
+          <div class="p-1">
+            <img src="img/portfolio/p2.jpg" alt="" />
+            <div class="ser">
+            <h2 class="hed-pro">front end </h2>
+            <p class="des-pro">my name is ahmed  </p>
+          </div>
+          </div>
+          <div class="p-1">
+            <img src="img/portfolio/p3.jpg" alt="" />
+            <div class="ser">
+            <h2 class="hed-pro">front end </h2>
+            <p class="des-pro">my name is ahmed  </p>
+          </div>
+          </div>
+          <div class="p-1">
+            <img src="img/portfolio/p4.jpg" alt="" />
+            <div class="ser">
+            <h2 class="hed-pro">front end </h2>
+            <p class="des-pro">my name is ahmed  </p>
+          </div>
+          </div>
+          <div class="p-1">
+            <img src="img/portfolio/p5.jpg" alt="" />
+            <div class="ser">
+            <h2 class="hed-pro">front end </h2>
+            <p class="des-pro">my name is ahmed  </p>
+          </div>
+          </div>
+          <div class="p-1">
+            <img src="img/portfolio/p6.jpg" alt="" />
+            <div class="ser">
+            <h2 class="hed-pro">front end </h2>
+            <p class="des-pro">my name is ahmed  </p>
+          </div>
+          </div>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+
+    <!-- start sikll -->
+    <section class="services" id="services">
+      <h1 class="h1-header">
+        services
+      </h1>
+      <div class="container">
+        <div class="box">
+          <div class="header-box">
+            <i class="fa-solid fa-video"></i>
+            <h2>video editing</h2>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            animi doloribus repellendus hic aliquam officia, dolor perspiciatis
+            reiciendis.
+          </p>
+        </div>
+        <div class="box">
+          <div class="header-box">
+            <i class="fa-solid fa-mobile"></i>
+            <h2>video editing</h2>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            animi doloribus repellendus hic aliquam officia, dolor perspiciatis
+            reiciendis.
+          </p>
+        </div>
+        <div class="box">
+          <div class="header-box">
+            <i class="fa-solid fa-laptop"></i>
+            <h2>video editing</h2>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            animi doloribus repellendus hic aliquam officia, dolor perspiciatis
+            reiciendis.
+          </p>
+        </div>
+        <div class="box">
+          <div class="header-box">
+            <i class="fa-solid fa-code"></i>
+            <h2>video editing</h2>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            animi doloribus repellendus hic aliquam officia, dolor perspiciatis
+            reiciendis.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- start contact -->
+    <section class="contact" id="contact">
+      <h1 class="h1-header">contact</h1>
+      <div class="container">
+        <div class="text-left">
+          <h2>
+            drop me a message
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+            ipsum sapiente asperiores dolor!
+          </p>
+
+          <ul class="Reach-information">
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <span class="phone">+010111222333</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <span class="email">ahmed100@gmail.com</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <span class="gps"> house 3 street</span>
+            </li>
+          </ul>
+        </div>
+        <div class="reach-right">
+          <form class="from" action="">
+            <input type="text" placeholder="name" name="name" />
+            <input type="email" placeholder="email" name="email" />
+            <textarea
+              name="massage"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="massage"
+            ></textarea>
+            <input type="button" value="sent" class="button-res">
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- start footer -->
+    <footer>
+      <div class="container">
+      <div class="logo-left">
+        <i class="fa-solid fa-code"></i>
+      </div>
+      <div class="text-canter">
+        <span><span class="number">2020</span> ahmed mohamed</span>
+      </div>
+      <div class="social-right">
+        <ul class="social-media">
+          <li><i class="fa-solid fa-briefcase"></i></li>
+          <li><i class="fa-brands fa-instagram"></i></li>
+          <li><i class="fa-brands fa-linkedin-in"></i></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
