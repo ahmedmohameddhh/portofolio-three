@@ -340,7 +340,7 @@ header .container .links ul li a:hover {
 }
 .portfolio .project .p-1 {
         
-    height: 350px;
+    height: 250px;
     position: relative;
     overflow: hidden;    
     
@@ -422,7 +422,7 @@ opacity: .5;
 }
 .services .container .box{
   width: 450px;
-  height: 250px;
+  min-height: 250px;
   background-color: var(--bg-card);
   padding: 20px;
   border-radius: 10px;
@@ -608,6 +608,7 @@ footer .container .text-canter span .number{
 
 }
 /* footer end */
+
 
 
 
